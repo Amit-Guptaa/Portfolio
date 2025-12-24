@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amit Gupta | Portfolio</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-slate-900 text-white">
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="fixed w-full bg-slate-900 shadow z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-sky-400">Amit Gupta</h1>
+      <ul class="flex gap-6 text-sm">
+        <li><a href="#home" class="hover:text-sky-400">Home</a></li>
+        <li><a href="#about" class="hover:text-sky-400">About</a></li>
+        <li><a href="#skills" class="hover:text-sky-400">Skills</a></li>
+        <li><a href="#projects" class="hover:text-sky-400">Projects</a></li>
+        <li><a href="#contact" class="hover:text-sky-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ================= HERO ================= -->
+  <section id="home" class="h-screen flex items-center justify-center text-center">
+    <div>
+      <h1 class="text-4xl md:text-6xl font-bold">
+        Hi, I'm <span class="text-sky-400">Amit Gupta</span>
+      </h1>
+      <p class="mt-4 text-lg text-gray-300">
+        Java Developer | Python Enthusiast | Problem Solver
+      </p>
+      <div class="mt-6 flex justify-center gap-4">
+        <a href="#projects" class="px-6 py-3 bg-sky-400 text-black rounded-lg font-semibold hover:bg-sky-300">
+          View Projects
+        </a>
+        <a href="#" class="px-6 py-3 border border-sky-400 rounded-lg hover:bg-sky-400 hover:text-black">
+          Download Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about" class="py-20 bg-slate-800">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-6">About Me</h2>
+      <p class="text-gray-300 leading-relaxed">
+        I am a passionate computer science student with strong interest in
+        Java, Python, and Web Development. I enjoy solving real-world problems,
+        building projects, and continuously improving my technical skills.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills" class="py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-10">Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="bg-slate-800 p-6 rounded-xl">Java</div>
+        <div class="bg-slate-800 p-6 rounded-xl">Python</div>
+        <div class="bg-slate-800 p-6 rounded-xl">HTML / CSS</div>
+        <div class="bg-slate-800 p-6 rounded-xl">JavaScript</div>
+        <div class="bg-slate-800 p-6 rounded-xl">SQL</div>
+        <div class="bg-slate-800 p-6 rounded-xl">Git & GitHub</div>
+        <div class="bg-slate-800 p-6 rounded-xl">Data Structures</div>
+        <div class="bg-slate-800 p-6 rounded-xl">Problem Solving</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects" class="py-20 bg-slate-800">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-slate-900 p-6 rounded-xl">
+          <h3 class="font-semibold text-xl mb-2">Online Learning Platform Analysis</h3>
+          <p class="text-gray-400 text-sm mb-4">
+            EDA project analyzing content upload trends using Python.
+          </p>
+          <p class="text-sm text-sky-400">Python | Pandas | Matplotlib</p>
+        </div>
+
+        <div class="bg-slate-900 p-6 rounded-xl">
+          <h3 class="font-semibold text-xl mb-2">Java String Utilities</h3>
+          <p class="text-gray-400 text-sm mb-4">
+            Demonstrates String, StringBuffer, and StringBuilder.
+          </p>
+          <p class="text-sm text-sky-400">Java</p>
+        </div>
+
+        <div class="bg-slate-900 p-6 rounded-xl">
+          <h3 class="font-semibold text-xl mb-2">Portfolio Website</h3>
+          <p class="text-gray-400 text-sm mb-4">
+            Personal responsive portfolio using Tailwind CSS.
+          </p>
+          <p class="text-sm text-sky-400">HTML | Tailwind</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE / EDUCATION ================= -->
+  <section class="py-20">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-10">Education</h2>
+      <div class="bg-slate-800 p-6 rounded-xl text-center">
+        <h3 class="font-semibold text-xl">Bachelor of Technology (CSE)</h3>
+        <p class="text-gray-400">2022 – 2026</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ACHIEVEMENTS ================= -->
+  <section class="py-20 bg-slate-800">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-6">Achievements & Certifications</h2>
+      <ul class="text-gray-300 space-y-2">
+        <li>✔ Java Programming Certification</li>
+        <li>✔ Python for Data Analysis</li>
+        <li>✔ Hackathon Participant</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="py-20">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+
+      <form class="space-y-4">
+        <input type="text" placeholder="Your Name" class="w-full p-3 rounded bg-slate-800">
+        <input type="email" placeholder="Your Email" class="w-full p-3 rounded bg-slate-800">
+        <textarea placeholder="Your Message" class="w-full p-3 rounded bg-slate-800"></textarea>
+        <button class="px-6 py-3 bg-sky-400 text-black rounded font-semibold">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-slate-900 py-6 text-center text-gray-400">
+    © 2025 Amit Gupta | All Rights Reserved
+  </footer>
+
+</body>
+</html>
